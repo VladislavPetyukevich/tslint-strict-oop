@@ -9,9 +9,14 @@
     "lint": "tslint --project tsconfig.lint.json --config tslint.json",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavPetyukevich/tslint-strict-oop"
+  },
+  "homepage": "https://github.com/VladislavPetyukevich/tslint-strict-oop#readme",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.11",
     "tslint": "^6.1.3",
