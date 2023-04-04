@@ -1,0 +1,14 @@
+{
+  "rulesDirectory": "dist",
+  "rules": {
+    "one-class-per-file": true,
+    "only-classes-on-top": true,
+    "class-filename": true,
+    "strict-unions": true
+  },
+  "linterOptions": {
+    "exclude": [
+        "src/*.ts"
+    ]
+  }
+}
