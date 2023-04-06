@@ -1,5 +1,19 @@
 # tslint-strict-oop
 
+## Usage
+In *tslint.json*:
+```json
+{
+  "rulesDirectory": "node_modules/tslint-strict-oop/dist",
+  "rules": {
+    "one-class-per-file": true,
+    "strict-unions": true,
+    "class-filename": true,
+    "only-classes-on-top": true
+  },
+}
+```
+
 ## Rules
 
 ### _`one-class-per-file`_
